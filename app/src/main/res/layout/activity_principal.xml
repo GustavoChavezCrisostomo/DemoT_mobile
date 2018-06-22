@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -45,6 +46,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@color/colorPrimary"
                 android:text="Tu historia en Tecsup"
+                android:onClick="callHistoria"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
 
@@ -55,6 +57,7 @@
                 android:layout_marginTop="40dp"
                 android:background="@color/colorPrimary"
                 android:text="Captura tu texto"
+                android:onClick="callCaptura"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tesis.demo.demot_mobile.activities.CapturaActivity">
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="68dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btn_analizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/img_captura"
+            android:layout_alignEnd="@+id/img_captura"
+            android:layout_marginEnd="14dp"
+            android:layout_weight="1"
+            android:text="   Analizar   " />
+
+        <Button
+            android:id="@+id/btn_takeFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/img_captura"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="Tomar foto" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30sp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_captura"
+            android:layout_width="309dp"
+            android:layout_height="348dp"
+            android:layout_below="@+id/btn_takeFoto"
+            android:layout_centerHorizontal="true"
+            android:src="@color/cardview_light_background" />
+
+    </LinearLayout>
+
+</LinearLayout>

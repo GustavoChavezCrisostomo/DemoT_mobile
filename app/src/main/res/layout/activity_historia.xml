@@ -24,6 +24,8 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="Relata tu historia lo suficientemente extensa sobre tus experiencias en Tecsup"
             android:layout_marginTop="10dp"
             android:textSize="18sp" />
