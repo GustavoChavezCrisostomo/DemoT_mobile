@@ -1,6 +1,7 @@
 package com.tesis.demo.demot_mobile.model;
 
-public class Usuario {
+public class Alumno {
+
     private Integer id;
     private String correo;
     private String password;
@@ -10,11 +11,11 @@ public class Usuario {
     private String carrera;
     private Integer ciclo;
 
-    public Usuario(){
+    public Alumno(){
 
     }
 
-    public Usuario(Integer id, String correo, String password, String nombre, String apellido, Integer edad, String carrera, Integer ciclo) {
+    public Alumno(Integer id, String correo, String password, String nombre, String apellido, Integer edad, String carrera, Integer ciclo) {
         this.id = id;
         this.correo = correo;
         this.password = password;
@@ -51,7 +52,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
+        return "Alumno{" +
                 "id=" + id +
                 ", correo='" + correo + '\'' +
                 ", password='" + password + '\'' +
@@ -62,4 +63,6 @@ public class Usuario {
                 ", ciclo=" + ciclo +
                 '}';
     }
+
+
 }
